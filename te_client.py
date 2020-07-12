@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def client():
-    HOST = '1.250.9.24'
+    HOST = 'your ip'
     PORT = 29584
     s = socket.socket()
     s.connect((HOST,PORT))
